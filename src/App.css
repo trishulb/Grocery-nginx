@@ -9,7 +9,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,6 +20,21 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.App-badge{
+    top: 50%;
+    right: -3;
+    border: 2px solid; 
+}
+.Paper-root{
+  width: 100%;
+  marginTop: theme.spacing.unit * 3;
+  overflowX: auto;
+}
+
+.Cart-table{
+  min-width: 700;
 }
 
 @keyframes App-logo-spin {
