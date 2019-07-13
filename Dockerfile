@@ -1,6 +1,6 @@
 FROM nginx
 
-EXPOSE 3000
+EXPOSE 3005
+EXPOSE 8089
 
-COPY ./nginx/default.conf /etc/nginx/conf.d/default.conf
-COPY ./build /usr/share/nginx/html
+COPY ./default.conf /etc/nginx/conf.d/default.conf
